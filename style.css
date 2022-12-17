@@ -21,7 +21,9 @@ h1 {
 h1:hover {
     cursor: pointer;
 }
-
+.box{
+    height: 70vh;
+}
 .row1 {
     display: flex;
     justify-content: center;
