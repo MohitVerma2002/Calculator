@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    height: 50px;
+    background-color: rgb(236, 102, 102);
+}
+
+h1 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    font-size: 1.8rem;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+}
+
+.row5 {
+    display: flex;
+    justify-content: center;
+}
+
+.row5 button {
+    padding: 9px;
+}
+
+.rowinput {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 7px;
+    margin-top: 30px;
+
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(194, 252, 252);
+    font-size: 1rem;
+    padding: 5px;
+    font-family: 'Bree Serif', serif;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.button {
+    padding: 13px;
+    margin: 2px;
+}
+
+button {
+    background-color: rgb(255, 121, 121);
+    border-radius: 8px;
+}
+
+span button {
+    background-color: rgb(235, 168, 25);
+}
+
+button:hover {
+    background-color: rgb(169, 56, 56);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.row3 button {
+    margin: 2.6px;
+}
+
+.row4 button {
+    margin: 1.2px;
+}
+
+.row5 button {
+    padding: 11.3px;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    font-size: .6rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
+
+.footer span {
+    color: red;
+}
+
+footer p {
+    color: white;
+    cursor: pointer;
+}
